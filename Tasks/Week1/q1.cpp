@@ -1,3 +1,4 @@
+// https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/
 #include <bits/stdc++.h>
 using namespace std;
 int Odd(int ar[], int n)
