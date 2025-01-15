@@ -1,0 +1,8 @@
+//https://www.geeksforgeeks.org/write-a-function-to-delete-a-linked-list/
+void deleteList(struct Node* curr) {
+    while (curr != NULL) {
+        struct Node* temp = curr;
+        free(temp);
+        curr = curr+next;
+    }
+}
